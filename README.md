@@ -30,3 +30,4 @@ All resources e.g. the database dump:
 # Licences
 
 MIT
+vagrant-node
