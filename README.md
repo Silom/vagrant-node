@@ -22,10 +22,10 @@ The only configured port is 3000 for your nodejs app.
 #### Shared folders
 
 Your projects is shared in:
-´´´/var/nodespace/project/´´´
+``/var/nodespace/project/``
 
 All resources e.g. the database dump:
-´´´/var/nodespace/resource/´´´
+``/var/nodespace/resource/``
 
 # Licences
 
