@@ -14,4 +14,6 @@ npm install -g bower
 
 cd /var/nodespace/project/ && npm install && bower install
 
+mongorestore --db mongoDump /var/nodespace/resource/mongoDump/
+
 echo "export LC_ALL=en_US.UTF-8" >> /home/vagrant/.bashrc

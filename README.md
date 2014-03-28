@@ -7,7 +7,7 @@
 
 ## Informations
 
-Easy nodejs and mongoDB vagrant box for your next webapp.
+Easy nodejs and mongoDB vagrant box for your next small webapp.
 
 #### Installed software
 
@@ -26,6 +26,11 @@ Your projects is shared in:
 
 All resources e.g. the database dump:
 ``/var/nodespace/resource/``
+
+#### MongoDB Dumps
+
+You can add your MongoDB export to the ``/resource/mongoDump/`` folder.
+The database will be called mongoDump.
 
 # Licences
 
