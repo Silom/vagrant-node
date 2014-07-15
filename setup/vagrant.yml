@@ -1,0 +1,11 @@
+---
+- hosts: all
+  user: vagrant
+  roles:
+    - { role: base }
+    - { role: nodejs }
+    - { role: mongodb }
+    - { role: bower }
+    - { role: grunt }
+
+    #- { role: nginx }

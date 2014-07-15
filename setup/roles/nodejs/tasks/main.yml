@@ -1,0 +1,15 @@
+---
+- name: Node.js; Package prerequisites for node.js
+  apt: pkg=python-software-properties state=present
+  sudo: yes
+  tags: nodejs
+
+- name: Node.js; Add the Node.js PPA
+  apt_repository: repo='ppa:chris-lea/node.js' state=present
+  sudo: yes
+  tags: nodejs
+
+- name: Node.js; Install Node.js and npm
+  apt: pkg=nodejs update-cache=yes
+  sudo: yes
+  tags: nodejs

@@ -1,0 +1,10 @@
+---
+- name: Base; Update apt cache
+  apt: update-cache=yes
+  sudo: yes
+  tags: base
+
+- name: Base; Update language
+  apt: pkg=language-pack-en
+  sudo: yes
+  tags: base

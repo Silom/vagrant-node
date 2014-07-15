@@ -1,0 +1,13 @@
+- name: Setup; Install App dependencies
+  sudo: yes
+  command: "{{item}}"
+  with_items:
+   - cd {{src_root}}/{{project_name}}
+   - npm install
+
+- name: Setup; Install Frontend dependencies
+  sudo: no
+  command: "{{item}}"
+  with_items:
+   - cd {{src_root}}/{{project_name}}
+   - bower install

@@ -1,0 +1,10 @@
+---
+- name: Bower; Install Git as Dependency
+  sudo: yes
+  apt: pkg=git update-cache=yes
+  tags: bower
+
+- name: Bower; Install Bower
+  sudo: yes
+  npm: name=bower global=yes
+  tags: bower

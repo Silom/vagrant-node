@@ -1,0 +1,6 @@
+---
+src_root: /var/nodespace
+nginx_hostname: hostname
+project_port: 3000
+project_name: project
+project_base_route: server/
